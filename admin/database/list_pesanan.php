@@ -42,7 +42,7 @@ $rs = $dbh->query($sql);
           
           <section class="section">
             <div class="card">
-              <div class="card-header">Simple Datatable</div>
+            <div class="card-header"><a class="btn btn-success my-1" href="?page=pages/form_pesanan.php" role="button">Create Pesanan</a></div>
               <div class="card-body">
                 <table class="table table-striped" id="table1">
                   <thead>

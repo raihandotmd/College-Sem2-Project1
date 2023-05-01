@@ -42,7 +42,7 @@ $rs = $dbh->query($sql);
           
           <section class="section">
             <div class="card">
-              <div class="card-header">Simple Datatable</div>
+              <div class="card-header"><a class="btn btn-success my-1" href="?page=database/form_kategori_produk.php" role="button">Create Kategori Produk</a></div>
               <div class="card-body">
                 <table class="table table-striped" id="table1">
                   <thead>
@@ -65,9 +65,9 @@ $rs = $dbh->query($sql);
                                     <?= $row['nama'] ?>
                                 </td>
                                 <td>
-                                    <a class="btn btn-primary" href="view_pelanggan.php?id=<?= $row['id'] ?>">View</a>
-                                    <a class="btn btn-primary" href="form_pelanggan.php?idedit=<?= $row['id'] ?>">Edit</a>
-                                    <a class="btn btn-danger" href="proses_pelanggan.php?iddel=<?= $row['id'] ?>"
+                                    <a class="btn btn-primary" href="?page=database/view_kategori_produk.php&id=<?= $row['id'] ?>">View</a>
+                                    <a class="btn btn-primary" href="?page=database/form_kategori_produk.php&idedit=<?= $row['id'] ?>">Edit</a>
+                                    <a class="btn btn-danger" href="database/proses_kategori_produk.php?iddel=<?= $row['id'] ?>"
                                         onclick="if(!confirm('Anda Yakin Hapus Data Produk <?= $row['nama'] ?>?')) {return false}">Delete</a>
                                 </td>
                             </tr>

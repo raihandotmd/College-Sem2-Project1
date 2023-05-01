@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../assets/compiled/css/table-datatable.css" />
     <link rel="stylesheet" href="../assets/compiled/css/app.css" />
     <link rel="stylesheet" href="../assets/compiled/css/app-dark.css" />
+
   </head>
 
   <body>
