@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="package/swiper-bundle.min.css" />
+        <title>Equipify - Simplify your gym needs.</title>
+    </head>
+    <body>
+        <!-- HEADER NAVIGASI -->
+
+        <header id="header-nav">
+            <div class="logo-header">
+                <a href="#home">
+                    <img src="images/equipify-logo.svg" alt="" />
+                    <div class="logo-text">QUIPIFY</div>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#product"><i class="bi bi-shop"></i></a>
+                    </li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- CONTAINER FOR SLIDE ONE -->
+            <section class="container-slide_one" id="home">
+                <!-- DEALS AND PROMOS SECTION -->
+
+                <!-- Slider main container -->
+                <section class="deals-promos">
+                    <div class="deal-title">
+                        <h2>deal's & promo's</h2>
+                    </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img
+                                    src="images/slides/barbell-dumbell.png"
+                                    alt="Barbell and dumbell set promo"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="images/slides/kettlebell.png"
+                                    alt="kettlebell set promo"
+                                />
+                            </div>
+                            <div class="swiper-slide">
+                                <img
+                                    src="images/slides/jump-rope.png"
+                                    alt="kettlebell set promo"
+                                />
+                            </div>
+                        </div>
+                        <!-- page slide circle button -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- nav slide buttons-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </section>
+
+                <!-- SECTION COMPANY INTRODUCTION -->
+
+                <section class="main-header">
+                    <div class="main-title">
+                        <h1>simplify</h1>
+                        <div class="main-sub_title">your gym needs.</div>
+                    </div>
+
+                    <div class="main-content">
+                        You're busy?, so we made it easy. Using
+                        <strong>Equipify</strong>, you can buy the best quality
+                        gym equipments without the hassle of going to a store.
+                        All this without any compromise on quality,
+                        Eco-friendliness, or portability.
+                    </div>
+                </section>
+            </section>
+            <!-- Video intro -->
+
+            <section class="container-slide_two">
+                <section class="video-intro">
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://share.synthesia.io/embeds/videos/0c6d6252-73e1-4e6d-baaa-a6fa81a76566"
+                            loading="lazy"
+                            title="Synthesia video player - Your AI video"
+                            allow="encrypted-media; fullscreen;"
+                            class="video-review"
+                            style="border: none"
+                        >
+                        </iframe>
+                    </div>
+                </section>
+
+                <!-- Reviews section -->
+
+                <section class="reviews-container">
+                    <div class="review-wrapper">
+                        <div class="review-title">
+                            <h2>reviews</h2>
+                        </div>
+                        <div class="review-cards">
+                            <div class="container-card col-card">
+                                <div class="review-content">
+                                    Thankfully, Equipify was a lifesaver for me!
+                                    I could filter the equipment by category and
+                                    then see the features of the equipment right
+                                    on the product page. I was really impressed.
+                                </div>
+                                <div class="review-authors">
+                                    <div
+                                        class="review-author_profile author-content"
+                                    >
+                                        <img
+                                            src="images/person1.jpg"
+                                            alt="Person 1 profile picture"
+                                            class="review-author_image"
+                                        />
+                                    </div>
+                                    <div class="review-author_details">
+                                        <div
+                                            class="review-author_name author-content"
+                                        >
+                                            paul tomlinson
+                                        </div>
+                                        <div
+                                            class="review-author_location author-content"
+                                        >
+                                            from canada
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-card col-card">
+                                <div class="review-content">
+                                    I love Equipify because I can order
+                                    equipment online from their catalog, and
+                                    they ship right to my front door. This has
+                                    been a great solution for me.
+                                </div>
+                                <div class="review-authors">
+                                    <div class="review-author_profile">
+                                        <img
+                                            src="images/person2.jpg"
+                                            alt="Person 2 profile picture"
+                                            class="review-author_image"
+                                        />
+                                    </div>
+                                    <div class="review-author_details">
+                                        <div class="review-author_name">
+                                            rusty matula
+                                        </div>
+                                        <div class="review-author_location">
+                                            from france
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-card row-card">
+                                <div class="review-content">
+                                    It's hard to find the right balance of
+                                    stability and weight at the same time on
+                                    fitness equipment, and the Equipment has a
+                                    heavy enough base that feels stable without
+                                    being too heavy.
+                                </div>
+                                <div class="review-authors">
+                                    <div class="review-author_profile">
+                                        <img
+                                            src="images/person3.jpg"
+                                            alt="Person 3 profile picture"
+                                            class="review-author_image"
+                                        />
+                                    </div>
+                                    <div class="review-author_details">
+                                        <div class="review-author_name">
+                                            daniel smith
+                                        </div>
+                                        <div class="review-author_location">
+                                            from finland
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- ABOUT US SECTION -->
+
+            <section class="about-us" id="about">
+                <div class="content-container">
+                    <div class="about-title"><h2>about us</h2></div>
+                    <div class="about-content">
+                        Equipify is a gym equipment Store. Here we will provide
+                        you with only good gym equipment that is high quality
+                        and different than others. We're dedicated to providing
+                        you with the best gym equipment, with a focus on
+                        high-quality materials and Eco-friendly.
+                    </div>
+                </div>
+                <div class="about-logo">
+                    <img src="images/equipify-logo.png" alt="Equipify Logo" />
+                </div>
+            </section>
+
+            <!-- PRODUCTS -->
+
+            <section class="products-container" id="product">
+                <div class="products-wrapper_group">
+                    <div class="products-title">
+                        <h2>our products</h2>
+                    </div>
+                    <div class="products-cards">
+                        <!-- PRODUCT 1 DUMBELL-->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/dumbell_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">dumbell</div>
+                                <div class="product-description">
+                                    Your dumbbells too bulky to store? Our
+                                    Dumbell is the perfect answer for your
+                                    space-challenged needs!
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>49$</em>39$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT 2 JUMP-ROPE-->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/jump-rope_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">jump rope</div>
+                                <div class="product-description">
+                                    The jump rope is a great high intensity
+                                    workout and strength training exercise, as
+                                    it takes up no room to store and can be
+                                    utilized at any time.
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>59$</em>45$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT 3 BARBELL-->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/barbell_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">barbell</div>
+                                <div class="product-description">
+                                    Our small, sleek design has a modern,
+                                    professional look that will make any room
+                                    shine.
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>67$</em>52$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT 4 KETTLEBELL-->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/kettle_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">kettlebell</div>
+                                <div class="product-description">
+                                    The kettlebell is an ultra-portable piece of
+                                    fitness equipment that can be used for an
+                                    amazing variety of exercises.
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>76$</em>64$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT 5 AB-ROLL -->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/ab-roll_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">ab roll</div>
+                                <div class="product-description">
+                                    Our ab roller comes with a proven exercise
+                                    and a simple, yet effective design. You can
+                                    use it anywhere and anytime to get the
+                                    results you want.
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>129$</em>99$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT 6 GRIP-->
+
+                        <div class="product-wrapper">
+                            <div class="product-picture">
+                                <img
+                                    src="images/products/grip_equipment.png"
+                                    alt="Dumbell Equipment"
+                                    class="product-image"
+                                />
+                            </div>
+                            <div class="product-content">
+                                <div class="product-title">grip strength</div>
+                                <div class="product-description">
+                                    Improve your strength, tone and define your
+                                    hand physique! Get a grip on your body with
+                                    us!
+                                </div>
+                                <div class="product-buy">
+                                    <div class="product-cost">
+                                        <em>84$</em>78$
+                                    </div>
+                                    <a class="product_btn">
+                                        <i class="bi bi-cart-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT US -->
+
+            <section class="contact-us">
+                <div class="contact-container">
+                    <div class="contact-title">
+                        <h2>contact us</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            />
+                            <input
+                                type="email"
+                                id="email name"
+                                placeholder="Your E-mail"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                id="message"
+                                placeholder="Messages max-length 250-char."
+                                rows="4"
+                                maxlength="250"
+                            ></textarea>
+                            <button type="submit" name="submit" id="submit">
+                                submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="copyright">©2023 Raihan. All rights reserved.</div>
+            <div class="social-media_list">
+                <ul>
+                    <li class="">
+                        <a href="https://www.instagram.com/notraihan_/"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                    </li>
+                    <li class="">
+                        <a href="https://github.com/notRaihan"
+                            ><i class="bi bi-github"></i
+                        ></a>
+                    </li>
+                    <li class="">
+                        <a
+                            href="https://www.linkedin.com/in/muhammad-raihan-8b9075252/"
+                            ><i class="bi bi-linkedin"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="products"><a href="#product">our products</a></div>
+        </footer>
+
+        <script src="package/swiper-bundle.min.js"></script>
+        <script>
+            // slide script
+
+            const swiper = new Swiper(".swiper", {
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </body>
+</html>
