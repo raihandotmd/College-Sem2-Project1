@@ -4,12 +4,7 @@
           <div class="sidebar-header position-relative">
             <div class="d-flex justify-content-between align-items-center">
               <div class="logo">
-                <a href="index.html"
-                  ><img
-                    src="./assets/compiled/svg/logo.svg"
-                    alt="Logo"
-                    srcset=""
-                /></a>
+                Equipify
               </div>
               <div class="theme-toggle d-flex gap-2 align-items-center mt-2">
                 <svg
@@ -76,11 +71,12 @@
               </div>
             </div>
           </div>
+          <div class="d-flex justify-content-center"><a class="btn btn-danger mx-3 w-50" href="../index.php" role="button"><i class="bi bi-box-arrow-right"></i>  Logout</a></div>
           <div class="sidebar-menu">
-            <ul class="menu">
-              <li class="sidebar-title">Databases</li>
+            <ul class="menu mt-1">
+              <li class="sidebar-title mb-2">Databases</li>
               </li>
-              <li class="sidebar-item has-sub">
+              <li class="sidebar-item has-sub ps-2">
                 <a href="#" class="sidebar-link">
                   <i class="bi bi-stack"></i>
                   <span>Toko</span>

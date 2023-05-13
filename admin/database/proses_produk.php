@@ -53,8 +53,10 @@ if (isset($_GET['iddel']) && empty($_proses)) {
 } else if ($_proses == "Simpan") {
 
   move_uploaded_file($fileTmp,  $fileDestination);
+
   // create data
   $sql = "INSERT INTO produk (kode,nama,image,harga_jual,harga_beli,stok,min_stok,deskripsi,kategori_produk) VALUES (?,?,?,?,?,?,?,?,?)";
+
 } else if ($_proses == "Update") {
   // update data
   $_idedit = $_POST['idedit'];
@@ -72,11 +74,10 @@ if (isset($_GET['iddel']) && empty($_proses)) {
   move_uploaded_file($fileTmp,  $fileDestination);
 
   $ar_data[] = $_idedit;
-
   $sql = "UPDATE produk SET kode=?,nama=?,image=?,harga_jual=?,harga_beli=?,stok=?,min_stok=?,deskripsi=?,kategori_produk=? WHERE id=?";
 
+} 
 
-}
 if (isset($sql)) {
   $st = $dbh->prepare($sql);
   $st->execute($ar_data);

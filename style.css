@@ -52,7 +52,6 @@ header .logo-header a {
     align-items: center;
     text-decoration: none;
     color: var(--font-secondary)
-
 }
 
 header .logo-header a:hover {
@@ -82,7 +81,7 @@ nav ul {
     flex-direction: row-reverse;
 }
 nav li {
-    margin: 0 var(--space-md);
+    margin: 0 var(--space-xs);
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -93,7 +92,7 @@ header nav ul li:hover {
 
 
 nav li a{
-    font-size: 1.6em;
+    font-size: 1em;
     color: white;
     text-decoration: none;
 }
@@ -262,15 +261,15 @@ section .main-header .main-title h1 {
         margin-top: var(--space-2xl);
     }
     section.main-header .main-title h1 {
-        font-size: 8rem;
+        font-size: 5rem;
         margin-left: var(--space-md);
     }
     .main-header .main-sub_title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-left: var(--space-md);
     }
     .main-header .main-content {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -586,16 +585,17 @@ section .about-logo img {
 }
 @media (min-width:1700px) {
     section .about-title h2 {
-        font-size: 5.5rem;
+        font-size: 4rem;
     }
     section .about-content {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     section .about-logo img {
         width: 600px;
         height: 600px;
     }
 }
+
 
 /* PRODUCTS */
 

@@ -6,7 +6,7 @@ if (isset($_GET['page'])) {
     $page = $_GET['page'];
 } else {
     // Default Content Main Page
-    $page = 'main.php';
+    $page = 'database/list_kategori_produk.php';
 }
 include_once($page);
 
