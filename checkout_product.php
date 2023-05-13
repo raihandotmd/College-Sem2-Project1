@@ -153,4 +153,3 @@ $row = $st->fetch();
         totalPrice();
     }
 </script>
-</body>
